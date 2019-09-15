@@ -56,7 +56,7 @@ layers:
                 width: 5px
 
     places:
-        data: { source: osm }
+        data: { source: nextzen }
         filter: { name: true }
         draw:
             text:
