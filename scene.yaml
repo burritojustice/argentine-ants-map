@@ -77,7 +77,7 @@ layers:
                     style: italic
                     fill: black
                     stroke: { color: [1,1,1,.6] ,
-                    width: 5 }
+                    width: 2px }
 
     rail:
         data: { source: railroad }
