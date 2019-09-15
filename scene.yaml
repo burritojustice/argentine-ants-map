@@ -72,12 +72,12 @@ layers:
         draw:
             text:
                 font:
-                    family: Arial
+                    family: Times
                     size: 14px
                     style: italic
                     fill: black
-                    stroke: { color: [1,1,1,.6] ,
-                    width: 2px }
+                    stroke: { color: [1,1,1] ,
+                    width: 3px }
 
     rail:
         data: { source: railroad }
