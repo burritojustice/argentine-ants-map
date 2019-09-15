@@ -67,7 +67,7 @@ layers:
                 width: [[10, 1], [12, 1px],[14, 1px], [16, 2px], [17, 3px], [18, 5px]]
     roads:
         data: { source: nextzen }
-        filter: { not: { kind: [rail, ferry] } }
+        filter: { not: { kind: [rail, ferry, highway] } }
         draw:
             lines:
                 order: global.order
