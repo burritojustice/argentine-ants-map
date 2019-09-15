@@ -38,12 +38,12 @@
     <script>
         var map = L.map('map');
 	var bounds = [[41.4,13.7],[-43.9,-164.9]];
-	map.setMaxBounds(bounds);
+// 	map.setMaxBounds(bounds);
         var tangramLayer = Tangram.leafletLayer({
             scene: 'scene.yaml'        
             });
         tangramLayer.addTo(map);
-	   map.fitBounds(bounds);
+	map.fitBounds(bounds);
 //         map.setView([-1.6,-75.5], 3); 
     </script>
 
