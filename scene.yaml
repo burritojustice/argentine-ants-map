@@ -55,16 +55,16 @@ layers:
                 color: [0.645, 0.139, 0.102]
                 width: 5px
 
-    places:
-        data: { source: nextzen }
-        filter: { name: true }
-        draw:
-            text:
-                font:
-                    typeface: Italic 14px Times
-                    fill: black
-                    stroke: { color: [1,1,1,.6] ,
-                    width: 5 }
+#     places:
+#         data: { source: nextzen }
+#         filter: { name: true }
+#         draw:
+#             text:
+#                 font:
+#                     typeface: Italic 14px Times
+#                     fill: black
+#                     stroke: { color: [1,1,1,.6] ,
+#                     width: 5 }
 
     rail:
         data: { source: railroad }
