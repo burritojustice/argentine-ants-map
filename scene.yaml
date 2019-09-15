@@ -4,8 +4,7 @@ import: press.yaml
 sources: 
     shipping_ba-sf:
         type: GeoJSON
-        url: https://gist.githubusercontent.com/ghidorahnotweak/d7c67a1b2925b7a82a6a02b6d0177f09/raw/Buenos%2520Aires%2520to%2520Panama%2520Canal%2520to%2520SF.geojson
-
+        url: buenos_aires-panama-sf.geojson
     railroad:
         type: GeoJSON
   #      url: https://transit.land/api/v1/routes.geojson?operated_by=o-9-amtrak
