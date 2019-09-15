@@ -55,16 +55,28 @@ layers:
                 color: [0.645, 0.139, 0.102]
                 width: 5px
 
-#     places:
-#         data: { source: nextzen }
+    places:
+        data: { source: nextzen }
 #         filter: { name: true }
-#         draw:
-#             text:
-#                 font:
-#                     typeface: Italic 14px Times
-#                     fill: black
-#                     stroke: { color: [1,1,1,.6] ,
-#                     width: 5 }
+        filter:
+            any:
+                - name: San Francisco
+                - name: New Orleans
+                - name: Los Angeles
+                - name: Havana
+                - name: Rio de Jainero
+                - name: Buenos Aires
+                - name: Panama Canal
+                
+            
+        draw:
+            text:
+                font:
+#                     style: italic
+                    family: Italic 14px Times
+                    fill: black
+                    stroke: { color: [1,1,1,.6] ,
+                    width: 5 }
 
     rail:
         data: { source: railroad }
