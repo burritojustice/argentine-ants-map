@@ -64,9 +64,9 @@ layers:
                 - name: New Orleans
                 - name: Los Angeles
                 - name: Havana
-                - name: Rio de Jainero
+                - name: Rio de Janeiro
                 - name: Buenos Aires
-                - name: Panama Canal
+                - name: Panama
                 
             
         draw:
