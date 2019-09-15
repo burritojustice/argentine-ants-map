@@ -52,12 +52,12 @@ layers:
                 color: black
                 cap: round
                 width: 6px
-    landuse:
-        data: { source: nextzen }
-        draw:
-            hatch:
-                order: global.order
-                color: '#464C40'
+#     landuse:
+#         data: { source: nextzen }
+#         draw:
+#             hatch:
+#                 order: global.order
+#                 color: [.75,.75,.75]
     buildings:
         data: { source: nextzen }
         draw:
