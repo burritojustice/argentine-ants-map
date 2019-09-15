@@ -66,7 +66,9 @@ layers:
                 - name: Havana
                 - name: Rio de Janeiro
                 - name: Buenos Aires
-                - name: Panama            
+                - name: Panama       
+                - name: Rosario
+                
         draw:
             text:
                 font:
