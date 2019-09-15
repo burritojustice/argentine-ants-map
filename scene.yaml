@@ -72,8 +72,9 @@ layers:
         draw:
             text:
                 font:
-#                     style: italic
-                    family: Italic 14px Times
+                    family: Arial
+                    size: 14px
+                    style: italic
                     fill: black
                     stroke: { color: [1,1,1,.6] ,
                     width: 5 }
